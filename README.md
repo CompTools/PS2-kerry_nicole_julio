@@ -5,10 +5,9 @@ This is a group project.
 You should work in groups of 2 to 4 (not alone and not more than 4). If this is a problem, please let me know ahead of time.
 
 ### Please enter the names of the group members here:
-1. 
-1. 
-1. 
-1. 
+1. Kerry Lambert
+2. Julio Quinones
+3. Nicole Pelletier
 
 ## Due date
 **It is my hope that is can be turned in on Friday, May 22nd**, but I will take it until May 26th at the latest.
