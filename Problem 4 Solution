@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #solution to question 4
-#goal is to list the cities in Florida that have airports in the dataset
+#the goal is to list the cities in Florida that have airports in the dataset
 
 grep FL.*FL.*FL.*FL /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 3,4,5 -d "," | sort -u
 
