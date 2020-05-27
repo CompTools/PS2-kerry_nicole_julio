@@ -33,6 +33,7 @@ MIA | 205 | 36 | 0
 
 3. Within a function, print a list of all unique airport codes contained in the dataset. (*3 points*)
 
+
 4. Within a function list the cities in Florida that have airports in the dataset. (*2 points*)
 
 **Bonus question:**  Asks for user input (see chapter 28) to enter either a airport code or city, state name and then calculates the number of flights as in question 1. (*5 points extra credit*)
