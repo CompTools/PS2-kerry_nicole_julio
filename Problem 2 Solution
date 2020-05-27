@@ -9,7 +9,8 @@ cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV 
 Answer: 310 
 
 #GNV to ATL weather delayed 
-?????
+cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV | cut -d"," -f 7,13,16,24 | grep ATL | grep 1.00 | grep  "([1-9]{2}\.00,)" | wc -l 
+Answer: 0
 
 
 #GNV to CLT total flights 
@@ -21,7 +22,9 @@ cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV 
 Answer: 118 
 
 #GNV to CLT weather delayed
-???
+cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV | cut -d"," -f 7,13,16,24 | grep CLT | grep 1.00 | grep  "([1-9]{2}\.00,)" | wc -l 
+Answer: 0
+
 
 #GNV to MIA total flights
 cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV | cut -d"," -f 7 | grep MIA | wc -l
@@ -32,8 +35,8 @@ cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV 
 Answer: 36
 
 #GNV to MIA weather delayed
-???
-
+cat /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | grep GNV | cut -d"," -f 7,13,16,24 | grep MIA | grep 1.00 | grep  "([1-9]{2}\.00,)" | wc -l 
+Answer: 0
 
 
 
