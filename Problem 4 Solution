@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#solution to question 4
+
+grep FL.*FL.*FL.*FL /ufrc/bsc4452/share/Class_Files/data/flights.May2017-Apr2018.csv | cut -f 4,5 -d "," | sort -u
+
+"Fort Lauderdale, FL"
+"Fort Myers, FL"
+"Gainesville, FL"
+"Jacksonville, FL"
+"Key West, FL"
+"Miami, FL"
+"Orlando, FL"
+"Pensacola, FL"
+"Tallahassee, FL"
+"Tampa, FL"
